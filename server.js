@@ -30,7 +30,7 @@ app.use(express.json())
 app.use(cookieParser())
 
 app.use(cors({
-    origin: ['http://localhost:3000','https://dark-blue-coral-yoke.cyclic.app/'],
+    origin: ['http://localhost:3000','https://weak-jade-rabbit-boot.cyclic.app'],
     methods: ['GET','POST','PUT','DELETE'],
     credentials: true
 }))
